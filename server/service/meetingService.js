@@ -1,7 +1,8 @@
-const fs = require('fs')
-const jsonPath = 'meeting.json';
-const jsonData = fs.readFileSync(jsonPath, 'utf8');
-const data = JSON.parse(jsonData)
+
+
+const fs =require('fs');
+const dataFromFile= fs.readFileSync('dataFile.json','utf-8');
+const data=JSON.parse(dataFromFile);
 
 
 const getMeeting = async () => {

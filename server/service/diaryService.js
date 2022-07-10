@@ -15,26 +15,49 @@ module.exports.getUserDiary = async (id) => {
 module.exports.addingDay = async (id, day) => {
     debugger;
     const user = await Array.from(data.users).find(user => user.id === id);
-    debugger;
-    console.log("user///////\n"+user);
+    console.log("user///////\n" + user);
     const users = await Array.from(data.users).filter(user => user.id != id);
-    console.log("users//////\n"+users);
-    debugger;
-    console.log(Array.from(user.eatingDiary))
+    console.log("users//////\n" + users);
+    const diary = Array.from(user.eatingDiary)
     // console.log( Array.from(user.eatingDiary).push(day));
-    
-    const diary = Array.from(user.eatingDiary).push(day)
+
+    // const diary = Array.from(user.eatingDiary).push(day)
     console.log("diary//////\n"+diary);
-    user.eatingDiary = diary
-    // console.log("user.eatingDiary//////\n"+user.eatingDiary);
+    // user.eatingDiary = diary
+
+    diary.push(day)
+    user.eatingDiary=diary
+    console.log("user.eatingDiary//////\n" + user.eatingDiary);
+    console.log("user"+user)
     users.push(user);
 
     const json = JSON.stringify({ 'manager': manager, 'users': users })
     await fs.writeFileSync(jsonPath, json);
     return 'adding day'
 }
-module.exports.updateDay = async (id) => {
+module.exports.updateDay = async (idU,idDay,day) => {
+    debugger;
+    const user = await Array.from(data.users).find(user => user.id === idU);
+    console.log("user///////\n" + user);
+    const users = await Array.from(data.users).filter(user => user.id != idU);
+    console.log("users//////\n" + users);
+    let diary = Array.from(user.eatingDiary)
+    // console.log( Array.from(user.eatingDiary).push(day));
+    const currentDay=Array.from(diary).find(d => d.id === idDay)
+    diary=Array.from(diary).filter(d => d.id != idDay)
+    // const diary = Array.from(user.eatingDiary).push(day)
+    // console.log("diary//////\n"+diary);
+    // user.eatingDiary = diary
 
+    diary.push(day)
+    user.eatingDiary=diary
+    console.log("user.eatingDiary//////\n" + user.eatingDiary);
+    console.log("user"+user)
+    users.push(user);
+
+    const json = JSON.stringify({ 'manager': manager, 'users': users })
+    await fs.writeFileSync(jsonPath, json);
+    return 'adding day'
 
 }
 module.exports.deleteDay = async (id, update) => {

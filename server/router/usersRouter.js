@@ -6,7 +6,7 @@ const diaryController=require('../controller/diaryController');
 
 router.get('/:id/diary', diaryController.getUserDiary)
 router.post('/:id/diary', diaryController.addingDay)
-
+router.post('/:idU/diary/:idDay', diaryController.updateDay)
 
 
 

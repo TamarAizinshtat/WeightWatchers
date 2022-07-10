@@ -33,6 +33,25 @@ module.exports.addingDay = async (req, res, next) => {
         next(err);
     }
 }
+
+module.exports.updateDay = async (req, res, next) => {
+    try {
+        if (req.body) {
+            const { date, meals } = req.body;
+            const day = {
+                date,
+                meals
+            }
+            const idU = req.params.idU
+            const idDay = req.params.idDay
+            const updated = await diaryService.updateDay(idU,idDay, day)
+            res.send(updated);
+        }
+    }
+    catch (err) {
+        next(err);
+    }
+}
 // module.exports.createUser = async(req, res, next) => {
 //     try {
 
