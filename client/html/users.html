@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users</title>
+    <link rel="stylesheet" href="../css/users.css">
+
+    <template id="users-card">
+        <tr class="card" id="cardId">
+            <td class="firstName"></td>
+            <td class="lastName"></td>
+            <td class="bmi"></td>
+            <td class="details"></td>
+        </tr>
+    </template>
+</head>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<body onload="getUsers()">
+    <div class="container">
+        <!-- <div class="search-box">
+            <input class="search-input" type="text" name="" placeholder="Pesquise">
+            <a href="#" class="search-btn" onclick="searchUsers()">
+                <i class="fas fa-search"></i>
+            </a>  
+         </div> -->
+         <div class="searches">
+            <label class=" bold">free search</label><br />
+            <input type="text" id="name-search">
+            <button onclick="searchProductByName()">search</button><br />
+
+            <label >from weight</label><br />
+            <input type="range" id="from-weight" min="0" max="299" value="0" step="1"><br />
+            <label >to weight</label><br />
+            <input type="range" id="to-weight" min="1" max="300"><br />
+            <button onclick="searchUserByWeight()">search</button><br />
+         
+            <label>users that lost weight from last week </label><br />
+            <button onclick="searchUserWhoLostWeightFromLastWeek()">search</button><br />
+            <label>users that gained weight from last week</label><br />
+            <button onclick="searchUserWhoGainedWeightFromLastWeek()">search</button>
+       </div>
+        <div class="search-results">
+            <table class="users">
+                <tr>
+                    <th> first name</th>
+                    <th> last name </th>
+                    <th>
+                        <div id="bmi"> bmi </div>
+                    </th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script src="../js/users.js"></script>
+
+</html>

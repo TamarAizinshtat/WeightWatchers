@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user view</title>
+    <link rel="stylesheet" href="../css/userView.css">
+
+    <template id="history-meetings-template">
+        <tr class="meeting" id="">
+            <td class="date"></td>
+            <td class="weight"></td>
+            <td class="bmi"></td>
+        </tr>
+    </template>
+</head>
+
+<body>
+    <!-- <h1>user view</h1> -->
+    <div class="container">
+        <h1 id="userName"></h1>
+        <label>Email:</label>
+        <span id="userEmail"></span> |
+        <label>Phone</label>
+        <span id="userPhone"></span> |
+        <label>Address:</label>
+        <span id="userAddress"></span> |
+        <br />
+        <div class="hight-weight">
+            <label> Hight:</label>
+            <span id="userHight"></span> |
+            <label>First Weight:</label> |
+            <span id="userFirstWeight"></span>
+            <br />
+            <h4>history-meetings:</h4>
+            <div class="history-meetings">
+                <table class="meeting-table">
+                    <tr>
+                        <th> date</th>
+                        <th> weight </th>
+                        <th>
+                            <div id="bmi"> bmi </div>
+                        </th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/userView.js"></script>
+
+</html>

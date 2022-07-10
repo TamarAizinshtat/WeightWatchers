@@ -1,0 +1,214 @@
+{
+    "meetings": [
+        {
+            "id": 1,
+            "date": "01/03/2022",
+            "users": [
+                {
+                    "firstName":"tami",
+                    "weight": 60
+                },
+                {
+                    "firstName":"sara",
+                    "weight": 47
+                },
+                {
+                    "firstName":"bracha",
+                    "weight": 55
+                },
+                {
+                    "firstName":"chana",
+                    "weight": 87
+                },
+                {
+                    "firstName":"dvora",
+                    "weight": 79
+                },
+                {
+                    "firstName":"yael",
+                    "weight": 101
+                },
+                {
+                    "firstName":"noa",
+                    "weight": 64
+                },
+                {
+                    "firstName":"miriam",
+                    "weight": 75
+                },
+                {
+                    "firstName":"lea",
+                    "weight": 64
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "date": "08/03/2022",
+            "users": [
+                {
+                    "firstName":"tami",
+                    "weight": 62
+                },
+                {
+                    "firstName":"sara",
+                    "weight": 45
+                },
+                {
+                    "firstName":"bracha",
+                    "weight": 57
+                },
+                {
+                    "firstName":"chana",
+                    "weight": 89
+                },
+                {
+                    "firstName":"dvora",
+                    "weight": 74
+                },
+                {
+                    "firstName":"yael",
+                    "weight": 99
+                },
+                {
+                    "firstName":"noa",
+                    "weight": 63
+                },
+                {
+                    "firstName":"miriam",
+                    "weight": 76
+                },
+                {
+                    "firstName":"lea",
+                    "weight": 64
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "date": "23/03/2022",
+            "users": [
+                {
+                    "firstName":"tami",
+                    "weight": 64
+                },
+                {
+                    "firstName":"sara",
+                    "weight": 45
+                },
+                {
+                    "firstName":"bracha",
+                    "weight": 53
+                },
+                {
+                    "firstName":"chana",
+                    "weight": 87
+                },
+                {
+                    "firstName":"dvora",
+                    "weight": 79
+                },
+                {
+                    "firstName":"yael",
+                    "weight": 95
+                },
+                {
+                    "firstName":"noa",
+                    "weight": 63
+                },
+                {
+                    "firstName":"miriam",
+                    "weight": 75
+                },
+                {
+                    "firstName":"lea",
+                    "weight": 66
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "date": "30/03/2022",
+            "users": [
+                {
+                    "firstName":"tami",
+                    "weight": 60
+                },
+                {
+                    "firstName":"sara",
+                    "weight": 44
+                },
+                {
+                    "firstName":"bracha",
+                    "weight": 50
+                },
+                {
+                    "firstName":"chana",
+                    "weight": 89
+                },
+                {
+                    "firstName":"dvora",
+                    "weight": 72
+                },
+                {
+                    "firstName":"yael",
+                    "weight": 92
+                },
+                {
+                    "firstName":"noa",
+                    "weight": 64
+                },
+                {
+                    "firstName":"miriam",
+                    "weight": 75
+                },
+                {
+                    "firstName":"lea",
+                    "weight": 65
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "date": "07/04/2022",
+            "users": [
+                {
+                    "firstName":"tami",
+                    "weight": 60
+                },
+                {
+                    "firstName":"sara",
+                    "weight": 47
+                },
+                {
+                    "firstName":"bracha",
+                    "weight": 55
+                },
+                {
+                    "firstName":"chana",
+                    "weight": 87
+                },
+                {
+                    "firstName":"dvora",
+                    "weight": 79
+                },
+                {
+                    "firstName":"yael",
+                    "weight": 101
+                },
+                {
+                    "firstName":"noa",
+                    "weight": 64
+                },
+                {
+                    "firstName":"miriam",
+                    "weight": 75
+                },
+                {
+                    "firstName":"lea",
+                    "weight": 64
+                }
+            ]
+        }
+    ]
+}

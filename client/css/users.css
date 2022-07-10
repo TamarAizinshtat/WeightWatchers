@@ -1,0 +1,150 @@
+.container{
+    display: flex;
+    display: table-row;
+    justify-content: space-around;
+}
+.usersTable{
+    width:80%;
+    /* margin: 10%; */
+    padding: 0%;
+    background-color: rgb(43, 223, 172);
+
+}
+
+table {
+    color: #333;
+    font-size: .9em;
+    font-weight: 300;
+    line-height: 40px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #FFFF00;
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.16);
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    left: 20%;
+   
+  }
+  tr:hover:not(th) {background-color: rgba(103, 102, 78, 0.1);}
+  
+  th {
+    background: #FFFF00;
+    color: #fff;
+    border: none;
+    text-align: center;
+  }
+  button{
+    background-color: #FFFF00;
+    border: 1px solid rgb(38, 95, 93);
+    padding:2.4%;
+    border-radius: 6px;
+  }
+  
+
+
+  * {
+    
+    font-family: sans-serif;
+  }
+  
+  .search-box {
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+  }
+ 
+ 
+  .search-btn {
+    color: white;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+  }
+  .search-btn2 {
+    color: white;
+    float: right;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    transition: 2s;
+  }
+  
+  .fa-search {
+    background: black;
+    font-size: 24px;
+  }
+  
+  .search-input {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 50px;
+    width: 0;
+  }
+  .rango {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 50px;
+    width: 0;
+  }
+  .rango:hover {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 50px;
+    width: 0;
+  }
+  
+  .search-box:hover > .search-input {
+    width: 250px;
+    padding: 0 7px;
+  }
+ 
+
+  .label {
+    width: 100%;
+    color: rgb(100, 100, 100);
+    /* text-align: center; */
+    letter-spacing: 0.1em;
+ 
+    clear: both;
+  }
+
+.howToSearchInput{
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+  
+}
+  

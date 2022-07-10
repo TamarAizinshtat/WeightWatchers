@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diary management</title>
+    <script src="../js/foodDiary.js"></script>
+    <link rel="stylesheet" href="../css/foodDiary.css"> 
+    <template class="dayEating-card">
+        <tr class="one-day">
+            <td class="date"></td>
+            <td id="1"></td>
+            <td id="2"></td>
+            <td id="3"></td>
+            <td id="4"></td>
+            <td id="5"></td>
+            <td id="6"></td>
+            <td id="7"></td>
+            <td id="8"></td>
+        </tr>
+    </template>
+    <template class="add-date-card">
+        <div class="meal-container">
+            <h2 class="meal-title"></h2>
+            <div class="container-foods" id="">
+                <input type="text" id="1" placeholder="Enter food" autocomplete="off">
+                <input type="text" id="2" placeholder="Enter food" autocomplete="off">
+                <input type="text" id="3" placeholder="Enter food" autocomplete="off">
+                <input type="text" id="4" placeholder="Enter food" autocomplete="off">
+                <input type="text" id="5" placeholder="Enter food" autocomplete="off">
+            </div>
+            <button class="addMoreFood">Add more food</button>
+        </div>
+    </template>
+</head>
+<body onload="getAllDiary()">
+    <h1>my diary management</h1>
+    <table class="container">
+        <tr class="titles">
+            <th class="title">date</th>
+            <th class="title">meal 1</th>
+            <th class="title">meal 2</th>
+            <th class="title">meal 3</th>
+            <th class="title">meal 4</th>
+            <th class="title">meal 5</th>
+            <th class="title">meal 6</th>
+            <th class="title">meal 7</th>
+            <th class="title">meal 8</th>
+        </tr>
+    </table>
+    <button id="myBtn" onclick="addDate()">add date</button>
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>add date eating</h2>
+                <span>date</span>
+                <input type="date" class="dateOfMeal">
+                <button onclick="saveNewDate()" class="btn btn-primary">save the date</button>
+                <button onclick="drowMeal()" class="btn btn-primary">add meal</button>
+        </div>
+</div>
+</body>
+</html>
