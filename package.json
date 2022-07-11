@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "run-as-web-worker": "^0.9.0"
+  }
+}
