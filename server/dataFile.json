@@ -1,1 +1,1363 @@
-{"manager":{"email":"admin","password":"admin"},"users":[{"id":"09088967656","firstName":"Chana","lastName":"Yunyun","address":{"city":"Hifa","street":"Smena","number":"5"},"phone":"7765646778","email":"Chana@gmail.com","password":"123456789","hight":1.64,"weight":{"startWeight":80,"meetings":[{"date":"12/03/2022","weight":120},{"date":"19/03/2022","weight":122},{"date":"26/03/2022","weight":140}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2022-06-29","meals":[{"Foods":["חלב","טונה"]},{"Foods":["חומוס","חלב"]},{"Foods":["שוקולד","חלב"]}]},{"date":"2022-06-30","meals":[{"Foods":["ביסקוויט"]}]},{"date":"2022-06-29","meals":[{"Foods":["מלפפון","פלפל","גמבה"]}]},{"date":"2022-07-29","meals":[{"Foods":["וופל","חלה"]},{"Foods":["גבינה","קרקר"]}]},{"date":"2022-07-02","meals":[{"Foods":["אאאאאאאאא"]},{"Foods":["חלב","לחם"]}]}]},{"id":"8789645","firstName":"Shoshana","lastName":"Levi","address":{"city":"Kiriat sefer","street":"Gin","number":"6"},"phone":"055346675","email":"sh@gmail.com","password":"123456789","hight":1.8,"weight":{"startWeight":40,"meetings":[{"date":"12/03/2022","weight":30},{"date":"19/03/2022","weight":50},{"date":"26/03/2022","weight":70}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]}]},{"id":"444444443","firstName":"Gila","lastName":"Choen","address":{"city":"Ashkelon","street":"Shay agnon","number":5},"phone":"0521333874","email":"gc@gmail.com","password":"123456789","hight":1.7,"weight":{"startWeight":90,"meetings":[{"date":"12/03/2022","weight":40},{"date":"19/03/2022","weight":45},{"date":"26/03/2022","weight":48}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]}]},{"id":"888499932","firstName":"Rut","lastName":"Eliav","address":{"city":"Ashdod","street":"Rav ashi","number":"6"},"phone":"055346675","email":"rut@gmail.com","password":"123456789","hight":1.8,"weight":{"startWeight":40,"meetings":[{"date":"12/03/2022","weight":44},{"date":"19/03/2022","weight":78},{"date":"26/03/2022","weight":60}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2022-06-29","meals":[{"Foods":["חלב","טונה"]},{"Foods":["חומוס","חלב"]},{"Foods":["שוקולד","חלב"]}]},{"id":"7685944733","firstName":"Ester","lastName":"Wais","address":{"city":"Jerusalem","street":"Sanedria","number":5},"phone":"0558963214","email":"Wais@gmail.com","password":"123456789","hight":1.75,"weight":{"startWeight":80,"meetings":[{"date":"12/03/2022","weight":60},{"date":"19/03/2022","weight":69},{"date":"26/03/2022","weight":65}]}},{"id":"374992645","firstName":"Miriam","lastName":"Prais","address":{"city":"Beitar","street":"Buganim","number":"5"},"phone":"0583211208","email":"Mp@gmail.com","password":"123456789","hight":1.77,"weight":{"startWeight":80,"meetings":[{"date":"12/03/2022","weight":80},{"date":"19/03/2022","weight":82},{"date":"26/03/2022","weight":81}]}},{"id":"587412369","firstName":"Sara","lastName":"Greenboim","address":{"city":"Kiriat gat","street":"Gefen","number":"6"},"phone":"055346675","email":"shira@gmail.com","password":"123456789","hight":1.44,"weight":{"startWeight":66,"meetings":[{"date":"12/03/2022","weight":69},{"date":"19/03/2022","weight":67},{"date":"26/03/2022","weight":64}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2022-06-29","meals":[{"Foods":["חלב","טונה"]},{"Foods":["חומוס","חלב"]},{"Foods":["שוקולד","חלב"]}]},{"date":"2022-06-30","meals":[{"Foods":["ביסקוויט"]}]},{"date":"2022-06-29","meals":[{"Foods":["מלפפון","פלפל","גמבה"]}]},{"date":"2022-07-29","meals":[{"Foods":["וופל","חלה"]},{"Foods":["גבינה","קרקר"]}]},{"date":"2022-07-02","meals":[{"Foods":["אאאאאאאאא"]},{"Foods":["חלב","לחם"]}]}]},{"id":"89898976877888","firstName":"from","lastName":"postman","phone":"000000000","email":"postMan@gmail.com","password":"00000000","hight":78,"weight":{"startWeight":40,"meetings":[{"date":"12/03/2022","weight":90},{"date":"19/03/2022","weight":99},{"date":"26/03/2022","weight":9999999999}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2022-06-29","meals":[{"Foods":["חלב","טונה"]},{"Foods":["חומוס","חלב"]},{"Foods":["שוקולד","חלב"]}]},{"date":"2022-06-30","meals":[{"Foods":["ביסקוויט"]}]},{"date":"2022-06-29","meals":[{"Foods":["מלפפון","פלפל","גמבה"]}]},{"date":"2022-07-29","meals":[{"Foods":["וופל","חלה"]},{"Foods":["גבינה","קרקר"]}]},{"date":"2022-07-02","meals":[{"Foods":["אאאאאאאאא"]},{"Foods":["חלב","לחם"]}]}]},{"id":"978676666","firstName":"from","lastName":"put","phone":"changed","email":"changed@gmail.com","password":"00000000","hight":78,"weight":{"startWeight":40,"meetings":[{"date":"12/03/2022","weight":90},{"date":"19/03/2022","weight":99},{"date":"26/03/2022","weight":90}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2022-06-29","meals":[{"Foods":["חלב","טונה"]},{"Foods":["חומוס","חלב"]},{"Foods":["שוקולד","חלב"]}]},{"date":"2022-06-30","meals":[{"Foods":["ביסקוויט"]}]},{"date":"2022-06-29","meals":[{"Foods":["מלפפון","פלפל","גמבה"]}]},{"date":"2022-07-29","meals":[{"Foods":["וופל","חלה"]},{"Foods":["גבינה","קרקר"]}]},{"date":"2022-07-02","meals":[{"Foods":["אאאאאאאאא"]},{"Foods":["חלב","לחם"]}]}]},{"id":"55554466","firstName":"from","lastName":"put","phone":"changed","email":"changed@gmail.com","password":"00000000","hight":78,"weight":{"startWeight":40,"meetings":[{"date":"12/03/2022","weight":90},{"date":"19/03/2022","weight":99},{"date":"26/03/2022","weight":90}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2022-06-29","meals":[{"Foods":["חלב","טונה"]},{"Foods":["חומוס","חלב"]},{"Foods":["שוקולד","חלב"]}]},{"date":"2022-06-30","meals":[{"Foods":["ביסקוויט"]}]},{"date":"2022-06-29","meals":[{"Foods":["מלפפון","פלפל","גמבה"]}]},{"date":"2022-07-29","meals":[{"Foods":["וופל","חלה"]},{"Foods":["גבינה","קרקר"]}]},{"date":"2022-07-02","meals":[{"Foods":["אאאאאאאאא"]},{"Foods":["חלב","לחם"]}]}]},{"id":"9908088999","firstName":"from","lastName":"postman","phone":"000000000","email":"postMan@gmail.com","password":"00000000","hight":78,"weight":{"startWeight":40,"meetings":[{"date":"12/03/2022","weight":90},{"date":"19/03/2022","weight":99},{"date":"26/03/2022","weight":9999999999}]},"eatingDiary":[{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2015-07-05","meals":[{"Foods":["חלב","בננה","שוקולד"]},{"Foods":["גבינה","לחם","טונה"]},{"Foods":["חלב","עוגיה","שוקולד"]}]},{"date":"2022-06-29","meals":[{"Foods":["חלב","טונה"]},{"Foods":["חומוס","חלב"]},{"Foods":["שוקולד","חלב"]}]},{"date":"2022-06-30","meals":[{"Foods":["ביסקוויט"]}]},{"date":"2022-06-29","meals":[{"Foods":["מלפפון","פלפל","גמבה"]}]},{"date":"2022-07-29","meals":[{"Foods":["וופל","חלה"]},{"Foods":["גבינה","קרקר"]}]},{"date":"2022-07-02","meals":[{"Foods":["אאאאאאאאא"]},{"Foods":["חלב","לחם"]}]}]}]},{"firstName":"from","lastName":"postman","phone":"000000000","email":"postMan@gmail.com","password":"00000000","hight":78,"weight":{"startWeight":40,"meetings":[{"date":"12/03/2022","weight":90},{"date":"19/03/2022","weight":99},{"date":"26/03/2022","weight":9999999999}]}},{"id":"987654321","firstName":"Rachel","lastName":"Keler","address":{"city":"Jerusalem","street":"arimon","number":5},"phone":"0558963214","email":"rk@gmail.com","password":"123456789","hight":1.75,"weight":{"startWeight":80,"meetings":[{"date":"12/03/2022","weight":60},{"date":"19/03/2022","weight":61.8},{"date":"26/03/2022","weight":60.9}]},"eatingDiary":[]}]}
+{
+    "manager": {
+        "email": "admin",
+        "password": "admin"
+    },
+    "users": [
+        {
+            "id": "09088967656",
+            "firstName": "Chana",
+            "lastName": "Yunyun",
+            "address": {
+                "city": "Hifa",
+                "street": "Smena",
+                "number": "5"
+            },
+            "phone": "7765646778",
+            "email": "Chana@gmail.com",
+            "password": "123456789",
+            "hight": 1.64,
+            "weight": {
+                "startWeight": 80,
+                "meetings": [
+                    {
+                        "date": "12/03/2022",
+                        "weight": 120
+                    },
+                    {
+                        "date": "19/03/2022",
+                        "weight": 122
+                    },
+                    {
+                        "date": "26/03/2022",
+                        "weight": 140
+                    }
+                ]
+            },
+            "eatingDiary": [
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2022-06-29",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חומוס",
+                                "חלב"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "שוקולד",
+                                "חלב"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2022-06-30",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "ביסקוויט"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2022-06-29",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "מלפפון",
+                                "פלפל",
+                                "גמבה"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2022-07-29",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "וופל",
+                                "חלה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "קרקר"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2022-07-02",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "אאאאאאאאא"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "לחם"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8789645",
+            "firstName": "Shoshana",
+            "lastName": "Levi",
+            "address": {
+                "city": "Kiriat sefer",
+                "street": "Gin",
+                "number": "6"
+            },
+            "phone": "055346675",
+            "email": "sh@gmail.com",
+            "password": "123456789",
+            "hight": 1.8,
+            "weight": {
+                "startWeight": 40,
+                "meetings": [
+                    {
+                        "date": "12/03/2022",
+                        "weight": 30
+                    },
+                    {
+                        "date": "19/03/2022",
+                        "weight": 50
+                    },
+                    {
+                        "date": "26/03/2022",
+                        "weight": 70
+                    }
+                ]
+            },
+            "eatingDiary": [
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "444444443",
+            "firstName": "Gila",
+            "lastName": "Choen",
+            "address": {
+                "city": "Ashkelon",
+                "street": "Shay agnon",
+                "number": 5
+            },
+            "phone": "0521333874",
+            "email": "gc@gmail.com",
+            "password": "123456789",
+            "hight": 1.7,
+            "weight": {
+                "startWeight": 90,
+                "meetings": [
+                    {
+                        "date": "12/03/2022",
+                        "weight": 40
+                    },
+                    {
+                        "date": "19/03/2022",
+                        "weight": 45
+                    },
+                    {
+                        "date": "26/03/2022",
+                        "weight": 48
+                    }
+                ]
+            },
+            "eatingDiary": [
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "888499932",
+            "firstName": "Rut",
+            "lastName": "Eliav",
+            "address": {
+                "city": "Ashdod",
+                "street": "Rav ashi",
+                "number": "6"
+            },
+            "phone": "055346675",
+            "email": "rut@gmail.com",
+            "password": "123456789",
+            "hight": 1.8,
+            "weight": {
+                "startWeight": 40,
+                "meetings": [
+                    {
+                        "date": "12/03/2022",
+                        "weight": 44
+                    },
+                    {
+                        "date": "19/03/2022",
+                        "weight": 78
+                    },
+                    {
+                        "date": "26/03/2022",
+                        "weight": 60
+                    }
+                ]
+            },
+            "eatingDiary": [
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2015-07-05",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "בננה",
+                                "שוקולד"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "גבינה",
+                                "לחם",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חלב",
+                                "עוגיה",
+                                "שוקולד"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "date": "2022-06-29",
+                    "meals": [
+                        {
+                            "Foods": [
+                                "חלב",
+                                "טונה"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "חומוס",
+                                "חלב"
+                            ]
+                        },
+                        {
+                            "Foods": [
+                                "שוקולד",
+                                "חלב"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "7685944733",
+                    "firstName": "Ester",
+                    "lastName": "Wais",
+                    "address": {
+                        "city": "Jerusalem",
+                        "street": "Sanedria",
+                        "number": 5
+                    },
+                    "phone": "0558963214",
+                    "email": "Wais@gmail.com",
+                    "password": "123456789",
+                    "hight": 1.75,
+                    "weight": {
+                        "startWeight": 80,
+                        "meetings": [
+                            {
+                                "date": "12/03/2022",
+                                "weight": 60
+                            },
+                            {
+                                "date": "19/03/2022",
+                                "weight": 69
+                            },
+                            {
+                                "date": "26/03/2022",
+                                "weight": 65
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "374992645",
+                    "firstName": "Miriam",
+                    "lastName": "Prais",
+                    "address": {
+                        "city": "Beitar",
+                        "street": "Buganim",
+                        "number": "5"
+                    },
+                    "phone": "0583211208",
+                    "email": "Mp@gmail.com",
+                    "password": "123456789",
+                    "hight": 1.77,
+                    "weight": {
+                        "startWeight": 80,
+                        "meetings": [
+                            {
+                                "date": "12/03/2022",
+                                "weight": 80
+                            },
+                            {
+                                "date": "19/03/2022",
+                                "weight": 82
+                            },
+                            {
+                                "date": "26/03/2022",
+                                "weight": 81
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "587412369",
+                    "firstName": "Sara",
+                    "lastName": "Greenboim",
+                    "address": {
+                        "city": "Kiriat gat",
+                        "street": "Gefen",
+                        "number": "6"
+                    },
+                    "phone": "055346675",
+                    "email": "shira@gmail.com",
+                    "password": "123456789",
+                    "hight": 1.44,
+                    "weight": {
+                        "startWeight": 66,
+                        "meetings": [
+                            {
+                                "date": "12/03/2022",
+                                "weight": 69
+                            },
+                            {
+                                "date": "19/03/2022",
+                                "weight": 67
+                            },
+                            {
+                                "date": "26/03/2022",
+                                "weight": 64
+                            }
+                        ]
+                    },
+                    "eatingDiary": [
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חומוס",
+                                        "חלב"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "שוקולד",
+                                        "חלב"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-30",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "ביסקוויט"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "מלפפון",
+                                        "פלפל",
+                                        "גמבה"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "וופל",
+                                        "חלה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "קרקר"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-02",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "אאאאאאאאא"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "לחם"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "89898976877888",
+                    "firstName": "from",
+                    "lastName": "postman",
+                    "phone": "000000000",
+                    "email": "postMan@gmail.com",
+                    "password": "00000000",
+                    "hight": 78,
+                    "weight": {
+                        "startWeight": 40,
+                        "meetings": [
+                            {
+                                "date": "12/03/2022",
+                                "weight": 90
+                            },
+                            {
+                                "date": "19/03/2022",
+                                "weight": 99
+                            },
+                            {
+                                "date": "26/03/2022",
+                                "weight": 9999999999
+                            }
+                        ]
+                    },
+                    "eatingDiary": [
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חומוס",
+                                        "חלב"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "שוקולד",
+                                        "חלב"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-30",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "ביסקוויט"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "מלפפון",
+                                        "פלפל",
+                                        "גמבה"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "וופל",
+                                        "חלה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "קרקר"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-02",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "אאאאאאאאא"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "לחם"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "978676666",
+                    "firstName": "from",
+                    "lastName": "put",
+                    "phone": "changed",
+                    "email": "changed@gmail.com",
+                    "password": "00000000",
+                    "hight": 78,
+                    "weight": {
+                        "startWeight": 40,
+                        "meetings": [
+                            {
+                                "date": "12/03/2022",
+                                "weight": 90
+                            },
+                            {
+                                "date": "19/03/2022",
+                                "weight": 99
+                            },
+                            {
+                                "date": "26/03/2022",
+                                "weight": 90
+                            }
+                        ]
+                    },
+                    "eatingDiary": [
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חומוס",
+                                        "חלב"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "שוקולד",
+                                        "חלב"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-30",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "ביסקוויט"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "מלפפון",
+                                        "פלפל",
+                                        "גמבה"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "וופל",
+                                        "חלה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "קרקר"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-02",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "אאאאאאאאא"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "לחם"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "55554466",
+                    "firstName": "from",
+                    "lastName": "put",
+                    "phone": "changed",
+                    "email": "changed@gmail.com",
+                    "password": "00000000",
+                    "hight": 78,
+                    "weight": {
+                        "startWeight": 40,
+                        "meetings": [
+                            {
+                                "date": "12/03/2022",
+                                "weight": 90
+                            },
+                            {
+                                "date": "19/03/2022",
+                                "weight": 99
+                            },
+                            {
+                                "date": "26/03/2022",
+                                "weight": 90
+                            }
+                        ]
+                    },
+                    "eatingDiary": [
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חומוס",
+                                        "חלב"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "שוקולד",
+                                        "חלב"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-30",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "ביסקוויט"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "מלפפון",
+                                        "פלפל",
+                                        "גמבה"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "וופל",
+                                        "חלה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "קרקר"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-02",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "אאאאאאאאא"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "לחם"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "9908088999",
+                    "firstName": "from",
+                    "lastName": "postman",
+                    "phone": "000000000",
+                    "email": "postMan@gmail.com",
+                    "password": "00000000",
+                    "hight": 78,
+                    "weight": {
+                        "startWeight": 40,
+                        "meetings": [
+                            {
+                                "date": "12/03/2022",
+                                "weight": 90
+                            },
+                            {
+                                "date": "19/03/2022",
+                                "weight": 99
+                            },
+                            {
+                                "date": "26/03/2022",
+                                "weight": 9999999999
+                            }
+                        ]
+                    },
+                    "eatingDiary": [
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2015-07-05",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "בננה",
+                                        "שוקולד"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "לחם",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "עוגיה",
+                                        "שוקולד"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "טונה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חומוס",
+                                        "חלב"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "שוקולד",
+                                        "חלב"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-30",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "ביסקוויט"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-06-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "מלפפון",
+                                        "פלפל",
+                                        "גמבה"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-29",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "וופל",
+                                        "חלה"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "גבינה",
+                                        "קרקר"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2022-07-02",
+                            "meals": [
+                                {
+                                    "Foods": [
+                                        "אאאאאאאאא"
+                                    ]
+                                },
+                                {
+                                    "Foods": [
+                                        "חלב",
+                                        "לחם"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "firstName": "from",
+            "lastName": "postman",
+            "phone": "000000000",
+            "email": "postMan@gmail.com",
+            "password": "00000000",
+            "hight": 78,
+            "weight": {
+                "startWeight": 40,
+                "meetings": [
+                    {
+                        "date": "12/03/2022",
+                        "weight": 90
+                    },
+                    {
+                        "date": "19/03/2022",
+                        "weight": 99
+                    },
+                    {
+                        "date": "26/03/2022",
+                        "weight": 9999999999
+                    }
+                ]
+            }
+        },
+        {
+            "id": "987654321",
+            "firstName": "Rachel",
+            "lastName": "Keler",
+            "address": {
+                "city": "Jerusalem",
+                "street": "arimon",
+                "number": 5
+            },
+            "phone": "0558963214",
+            "email": "rk@gmail.com",
+            "password": "123456789",
+            "hight": 1.75,
+            "weight": {
+                "startWeight": 80,
+                "meetings": [
+                    {
+                        "date": "12/03/2022",
+                        "weight": 60
+                    },
+                    {
+                        "date": "19/03/2022",
+                        "weight": 61.8
+                    },
+                    {
+                        "date": "26/03/2022",
+                        "weight": 60.9
+                    }
+                ]
+            },
+            "eatingDiary": []
+        }
+    ]
+}
