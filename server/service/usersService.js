@@ -1,8 +1,4 @@
-const fs = require('fs')
-const jsonPath = 'dataFile.json';
-const jsonData = fs.readFileSync(jsonPath, 'utf8');
-const data = JSON.parse(jsonData)
-const manager = data.manager
+
 const userModel = require('../model/userModel')
 //
 module.exports.getAllUsers = async () => {
@@ -17,12 +13,23 @@ module.exports.getUser = async (id) => {
 
 }
 module.exports.updateUser = async (id, update) => {
-    let users = await Array.from(data.users)
-    users = users.filter(user => user.id != id);
-    users.push(update)
-    const json = JSON.stringify({ 'manager': manager, 'users': users })
-    await fs.writeFileSync(jsonPath, json);
-    return 'update'
+    const { firstName, lastName, city, street, number, phone, email, password, hight, weight } = update;
+    const data =
+    {
+        firstName,
+        lastName,
+        city,
+        street,
+        number,
+        phone,
+        email,
+        password,
+        hight,
+        weight
+    }
+    return await userModel.findByIdAndUpdate(id, data, {
+        new: true
+    });
 
 }
 module.exports.createUser = async (newUser) => {
@@ -45,8 +52,5 @@ module.exports.createUser = async (newUser) => {
 
 }
 module.exports.deleteUser = async (id) => {
-    const users = await Array.from(data.users).filter(user => user.id != id)
-    const json = JSON.stringify({ 'manager': manager, 'users': users })
-    await fs.writeFileSync(jsonPath, json);
-    return 'delete'
+    return await userModel.findByIdAndDelete(id)
 }
