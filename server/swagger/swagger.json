@@ -31,7 +31,7 @@
     "application/json"
   ],
   "paths": {
-    "/user": {
+    "/user/": {
       "get": {
         "summary": "Get all the users",
         "description": "Get all the users",
@@ -174,7 +174,7 @@
         }
       }
     },
-    "/meeting": {
+    "/meeting/": {
       "get": {
         "summary": "Get all the meeting",
         "description": "Get all the meeting",
