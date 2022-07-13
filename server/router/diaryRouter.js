@@ -4,7 +4,7 @@
 // DELETE /user/:id/diary/:id
 const express = require('express');
 const router = express.Router();
-const controller=require('../controller/diaryController');
+const controller = require('../controller/diaryController');
 
 router.get('/', controller.getUserDiary)
 // router.get('/search', controller.getUsersBySearch)

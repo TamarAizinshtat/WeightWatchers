@@ -1,133 +1,321 @@
 {
-    "swagger": "2.0",
-    "info": {
-      "version": "1.0.0", 
-      "title": "My User Project CRUD",
-      "description": "My User Project Application API",
-      "license": {
-        "name": "MIT",
-        "url": "https://opensource.org/licenses/MIT"
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "My User Project CRUD",
+    "description": "My User Project Application API",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Users",
+      "description": "API for users in the system"
+    },
+    {
+      "name": "Meetings",
+      "description": "API for meetings in the system"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/user": {
+      "get": {
+        "summary": "Get all the users",
+        "description": "Get all the users",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
       }
     },
-    "host": "localhost:3000",
-    "basePath": "/",
-    "tags": [
-      {
-        "name": "Users",
-        "description": "API for users in the system"
-      }
-    ],
-    "schemes": ["http"],
-    "consumes": ["application/json"],
-    "produces": ["application/json"],
-    "paths": {
-      "/user": {
-        "get": {
-          "tags": ["Users"],
-          "summary": "Get all users in system",
-          "parameters": [],
-          "responses": {
-            "200": {
-              "description": "OK",
-              "schema": {
-                "type": "array"
-              }
-            }
-          }
-        }
-       },
-        "/user/{userId}": {
-         
-            "parameters": {
-                "name": "userId",
-                "in": "path",
-                "description": "get user by id",
-                "required": true,
-                "type": "string"
-            }, 
-            "get": {
-            "tags": ["Users"],
-            "summary": "Get all users in system",
-            "responses": {
-              "200": {
-                "description": "OK",
-                "schema": {
-                  "type": "array"
-                }
-              }
-            }
-          }
-        }
-    },
-      "/addUser": {
-        "post": {
-          "tags": ["Users"],
-          "description": "Create new user in system",
-          "parameters": [
-            {
-              "name": "user",
-              "in": "body",
-              "description": "User that we want to create",
-              "schema": {
-                "$ref": "#/definitions/User"
-              }
-            }
-          ],
-          "produces": ["application/json"],
-          "responses": {
-            "200": {
-              "description": "New user is created",
-              "schema": {
-                "$ref": "#/definitions/User"
-              }
-            }
-          }
-        }
-      },
-      "/user/{id}": {
+    "/user/{id}": {
+      "get": {
+        "summary": "Get the task",
+        "description": "Get the task",
+        "produces": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "task id that needs to be deleted",
             "required": true,
-            "description": "ID of user that we want to find",
-            "type": "integer"
+            "type": "string"
           }
         ],
-        "put": {
-          "summary": "Update user with give ID",
-          "tags": ["Users"],
-          "parameters": [
-            {
-              "name": "user",
-              "in": "body",
-              "description": "User with new values of properties",
-              "schema": {
-                "$ref": "#/definitions/updateUser"
-              }
-            }
-          ],
-          "responses": {
-            "200": {
-              "description": "User is updated",
-              "schema": {
-                "$ref": "#/definitions/User"
-              }
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array"
             }
           }
         }
-      },
+      }
+    },
+    "/user/{userId}": {
       "delete": {
-        "summary": "Delete user with given ID",
-        "tags": ["Users"],
+        "summary": "Get the task",
+        "description": "Get the task",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "description": "task id that needs to be deleted",
+            "required": true,
+            "type": "string"
+          }
+        ],
         "responses": {
           "200": {
-            "description": "User is deleted",
+            "description": "successful operation",
             "schema": {
-              "$ref": "#/definitions/User"
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/user": {
+      "post": {
+        "summary": "add user",
+        "description": "add user to users",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "user object",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "user": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "created successfully",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/user/{upId}": {
+      "put": {
+        "summary": "Update the users",
+        "description": "Update the users",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "upId",
+            "in": "path",
+            "description": "user id that needs to be deleted",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "user object",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "user": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/meeting": {
+      "get": {
+        "summary": "Get all the meeting",
+        "description": "Get all the meeting",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/meeting/{id}": {
+      "get": {
+        "summary": "Get the meeting",
+        "description": "Get the meeting",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "meeting id that needs to be deleted",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/meeting/{meetingId}": {
+      "delete": {
+        "summary": "Get the meeting",
+        "description": "Get the meeting",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "meetingId",
+            "in": "path",
+            "description": "meeting id that needs to be deleted",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/meeting": {
+      "post": {
+        "summary": "add meeting",
+        "description": "add meeting to meetings",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "meeting object",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "meeting": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "created successfully",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/meeting/{upId}": {
+      "put": {
+        "summary": "Update the meeting",
+        "description": "Update the meeting",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "upId",
+            "in": "path",
+            "description": "meeting id that needs to be deleted",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "meeting object",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "meeting": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array"
             }
           }
         }
       }
     }
-  
+  }
+}

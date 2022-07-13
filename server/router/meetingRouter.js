@@ -6,7 +6,7 @@
 
 const express = require('express');
 const router = express.Router();
-const controller=require('../controller/meetingController');
+const controller = require('../controller/meetingController');
 
 router.get('/', controller.getMeeting)
 router.get('/:id', controller.getMeetingById)
