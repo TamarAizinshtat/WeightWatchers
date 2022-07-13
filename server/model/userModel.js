@@ -11,7 +11,7 @@ const DaySchema = new mongoose.Schema({
 const MeetingSchema = new mongoose.Schema({
     date: Date,
     weight: {
-        type: number,
+        type: Number,
         min: 40,
     }
 })
