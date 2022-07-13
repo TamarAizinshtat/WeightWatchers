@@ -3,9 +3,10 @@ const meetingService = require('../service/meetingService')
 
 const getMeeting = async (req, res, next) => {
     try {
+       
         const meeting = await meetingService.getMeeting()
-        res.send(meeting)
-    }
+        res.send(meeting)}
+    
     catch (err) {
         next(err);
     }

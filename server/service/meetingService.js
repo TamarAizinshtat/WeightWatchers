@@ -1,8 +1,8 @@
 
-
 const fs =require('fs');
-const dataFromFile= fs.readFileSync('dataFile.json','utf-8');
-const data=JSON.parse(dataFromFile);
+const jsonPath = 'meeting.json';
+const jsonData= fs.readFileSync(jsonPath,'utf-8');
+const data=JSON.parse(jsonData);
 
 
 const getMeeting = async () => {
@@ -10,8 +10,8 @@ const getMeeting = async () => {
 }
 const getMeetingById =async (id) => {
    const meeting = await Array.from(data.meetings).find(meeting => meeting.id === id);
-   return await meeting;
-}
+   return  meeting;
+  }
 const addMeeting =async (newMeeting) => {
    const meetings = Array.from(data.meetings)
    meetings.push(newMeeting);
