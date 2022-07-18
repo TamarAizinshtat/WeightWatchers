@@ -1,27 +1,41 @@
 function getWeight(){
   return this.weight
 }
-
+const baseUrl= 'http://localhost:3000/'
 let users;
 function getUsers() {
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', '../dataFile.json',true);
-    xhr.send();
-    xhr.onload = function () {
-    if (xhr.status != 200) {
-        alert(`Error ${xhr.status}: ${xhr.statusText}`);
-    } 
-    else {
-        users = JSON.parse(xhr.responseText).users;
-        console.log(users);
-        // manager.users = users; 
-        // sessionStorage.setItem('users',JSON.stringify(users));
-        // sessionStorage.setItem('manager',JSON.stringify(manager));
-        users.forEach(user => {
-            showUser(user)
-        });
-    }
-}
+
+    fetch(baseUrl+"user")
+    .then((response) => response.json())
+    .then((response) => {
+      (users = response)})
+    .then((response) => 
+    users.forEach(user => {
+        showUser(user)
+    }))
+    .catch((err) => {
+      console.log(err);
+    });
+
+
+    // const xhr = new XMLHttpRequest();
+    // xhr.open('GET', '../dataFile.json',true);
+    // xhr.send();
+    // xhr.onload = function () {
+    // if (xhr.status != 200) {
+    //     alert(`Error ${xhr.status}: ${xhr.statusText}`);
+    // } 
+    // else {
+    //     users = JSON.parse(xhr.responseText).users;
+    //     console.log(users);
+    //     // manager.users = users; 
+    //     // sessionStorage.setItem('users',JSON.stringify(users));
+    //     // sessionStorage.setItem('manager',JSON.stringify(manager));
+    //     users.forEach(user => {
+    //         showUser(user)
+    //     });
+    // }
+// }
 }
 function showUser(user) {
     const tmp=document.getElementById("users-card");
