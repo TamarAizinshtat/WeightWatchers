@@ -3,21 +3,24 @@ const fs =require('fs');
 const jsonPath = 'meeting.json';
 const jsonData= fs.readFileSync(jsonPath,'utf-8');
 const data=JSON.parse(jsonData);
-
+const meetingModel = require('../model/meetingModel')
 
 const getMeeting = async () => {
-   return await data.meetings;
+   return await meetingModel.find()
 }
 const getMeetingById =async (id) => {
-   const meeting = await Array.from(data.meetings).find(meeting => meeting.id === id);
-   return  meeting;
+   return await meetingModel.find(id)
   }
 const addMeeting =async (newMeeting) => {
-   const meetings = Array.from(data.meetings)
-   meetings.push(newMeeting);
-   const json = JSON.stringify({'meetings':meetings})
-   await fs.writeFileSync(jsonPath, json);
-   return 'create'
+   const {date, firstName, whight}= newMeeting;
+   const data = new meetingModel(
+      {
+         date,
+         firstName,
+         whight
+      }
+  )
+  return await data.save();
 
 }
 const updateMeeting =async (id,update) => {
