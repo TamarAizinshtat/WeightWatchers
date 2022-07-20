@@ -9,7 +9,7 @@ module.exports.getUsersBySearch = () => {
 
 }
 module.exports.getUser = async (id) => {
-    return await userModel.find(id)
+    return await userModel.findOne({id:id})
 
 }
 module.exports.updateUser = async (id, update) => {
