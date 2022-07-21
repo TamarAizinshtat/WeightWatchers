@@ -1,4 +1,3 @@
-
 const fs =require('fs');
 const jsonPath = 'meeting.json';
 const jsonData= fs.readFileSync(jsonPath,'utf-8');

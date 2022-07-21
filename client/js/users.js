@@ -1,10 +1,9 @@
 function getWeight(){
   return this.weight
 }
-const baseUrl= 'http://localhost:3000/'
+const baseUrl= 'http://localhost:3000'
 let users;
 function getUsers() {
-
     fetch(baseUrl+"user")
     .then((response) => response.json())
     .then((response) => {
@@ -15,28 +14,9 @@ function getUsers() {
     }))
     .catch((err) => {
       console.log(err);
-    });
-
-
-    // const xhr = new XMLHttpRequest();
-    // xhr.open('GET', '../dataFile.json',true);
-    // xhr.send();
-    // xhr.onload = function () {
-    // if (xhr.status != 200) {
-    //     alert(`Error ${xhr.status}: ${xhr.statusText}`);
-    // } 
-    // else {
-    //     users = JSON.parse(xhr.responseText).users;
-    //     console.log(users);
-    //     // manager.users = users; 
-    //     // sessionStorage.setItem('users',JSON.stringify(users));
-    //     // sessionStorage.setItem('manager',JSON.stringify(manager));
-    //     users.forEach(user => {
-    //         showUser(user)
-    //     });
-    // }
-// }
+    });   
 }
+
 function showUser(user) {
     const tmp=document.getElementById("users-card");
           const element = tmp.content.cloneNode(true);
@@ -53,9 +33,7 @@ function showUser(user) {
         element.querySelector(".details").appendChild(button);
         document.querySelector(".users").appendChild(element)
         changeColor(bmiColor,user.id)
-        // const c = document.getElementById("tbody")
-        // c.appendChild(element);
-       
+        
 }
 function changeColor(bmiColor,id){
     let color="";

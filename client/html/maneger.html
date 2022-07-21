@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>maneger</title>
+        <script src="../js/users.js"></script>
+        <script src="../js/manager.js"></script>
+        <template id="users-card">
+            <tr class="card" id="">
+              <td class="firstName"></td>
+              <td class="lastName"></td>
+              <td class="bmi" id=""></td>
+            </tr>
+          </template>
+    </head>
+    <body>
+        <body onload="getUsers()">
+            <h1>hello manager</h1>
+            <table id="users" class="users">
+              <tr>
+                <th>first Name</th>
+                <th>last Name</th>
+                <th>
+                  <div id="bmi">bmi</div>
+                </th>   
+                  <div id="u" >
+                     </div> <div id="i" class="i">
+                   </div>
+            </div>
+              </tr>
+            </table>
+            
+            <h3>search user</h3>
+              <div id="userList" class="userList"></div>
+              <label>enter for search</label><input type="text" id="inputSearch" name="inputSearch"><br />
+              <label>By Weight</label><input type="radio" name="byWeight" id="byWeight"><br />
+              <div id="weightInputs"></div>
+              <label>By Process</label><input type="radio" name="byProcess" id="byProcess"><br />
+              <label>By BMI</label><input type="radio" name="byBMI" id="byBMI"><br />
+              <div id="bmiInputs"></div>
+              <label>By City</label><input type="radio" name="byCity" id="byCity"><br />
+              <div id="cityInput"></div><br />
+              <button type="button" id="searchAll">search</button>
+              <button type="reset" id="reset">reset</button>
+          </body>
+
+
+        <!-- <div class="container">
+            <div class="searches">
+                <input type="button" id="search" value="Start Search" onclick="search()">
+       </div> -->
+    </body>
+</html>
