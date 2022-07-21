@@ -3,75 +3,66 @@ const userModel = require('../model/userModel')
 const userFunctions= require('./usersService');
 describe("user tests", () => {
     test('get all users returns a list', () => {   
-      // arrange and act
+      
       const result = userFunctions.getAllUsers();
+      expect(typeof result).toEqual(typeof Array())
     
-      // assert
-      expect(result).toBe(typeOf(list));
+    });
+    test('get user by id returns user', () => {   
+      
+      const result = userFunctions.getUser('62cec3a9bf9d2e7362b22327');
+      expect(typeof result).toEqual(typeof userModel())
+      expect(JSON.parse(result)._id ).toBe('62cec3a9bf9d2e7362b22327')
     });
     
-    test("subtracting 2 from 10 should return 8", () => {
-      // arrange and act
-      var result = mathOperations.diff(10,2)
     
-      // assert
-      expect(result).toBe(8);
-    });
-    
-    test("multiplying 2 and 8 should return 16", () => {
-      // arrange and act
-      var result = mathOperations.product(2,8)
-    
-      // assert
-      expect(result).toBe(16);
-    });
    })
-module.exports.getUsersBySearch = () => {
+// module.exports.getUsersBySearch = () => {
 
-}
-module.exports.getUser = async (id) => {
-    return await userModel.find(id)
+// }
+// module.exports.getUser = async (id) => {
+//     return await userModel.find(id)
 
-}
-module.exports.updateUser = async (id, update) => {
-    const { firstName, lastName, city, street, number, phone, email, password, hight, weight } = update;
-    const data =
-    {
-        firstName,
-        lastName,
-        city,
-        street,
-        number,
-        phone,
-        email,
-        password,
-        hight,
-        weight
-    }
-    return await userModel.findByIdAndUpdate(id, data, {
-        new: true
-    });
+// }
+// module.exports.updateUser = async (id, update) => {
+//     const { firstName, lastName, city, street, number, phone, email, password, hight, weight } = update;
+//     const data =
+//     {
+//         firstName,
+//         lastName,
+//         city,
+//         street,
+//         number,
+//         phone,
+//         email,
+//         password,
+//         hight,
+//         weight
+//     }
+//     return await userModel.findByIdAndUpdate(id, data, {
+//         new: true
+//     });
 
-}
-module.exports.createUser = async (newUser) => {
-    const { firstName, lastName, city, street, number, phone, email, password, hight, weight } = newUser;
-    const data = new userModel(
-        {
-            firstName,
-            lastName,
-            city,
-            street,
-            number,
-            phone,
-            email,
-            password,
-            hight,
-            weight
-        }
-    )
-    return await data.save();
+// }
+// module.exports.createUser = async (newUser) => {
+//     const { firstName, lastName, city, street, number, phone, email, password, hight, weight } = newUser;
+//     const data = new userModel(
+//         {
+//             firstName,
+//             lastName,
+//             city,
+//             street,
+//             number,
+//             phone,
+//             email,
+//             password,
+//             hight,
+//             weight
+//         }
+//     )
+//     return await data.save();
 
-}
-module.exports.deleteUser = async (id) => {
-    return await userModel.findByIdAndDelete(id)
-}
+// }
+// module.exports.deleteUser = async (id) => {
+//     return await userModel.findByIdAndDelete(id)
+// }
