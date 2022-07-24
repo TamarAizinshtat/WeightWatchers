@@ -11,12 +11,11 @@ const getMeetingById =async (id) => {
    return await meetingModel.find(id)
   }
 const addMeeting =async (newMeeting) => {
-   const {date, firstName, whight}= newMeeting;
+   const {date, usersInMeeting}= newMeeting;
    const data = new meetingModel(
       {
          date,
-         firstName,
-         whight
+         usersInMeeting
       }
   )
   return await data.save();

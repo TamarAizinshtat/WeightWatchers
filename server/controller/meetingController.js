@@ -29,9 +29,14 @@ const getMeetingById = async (req, res, next) => {
 const addMeeting = async (req, res, next) => {
     try {
         if (req.body) {
-            const data = req.body;
-            const created = await meetingService.addMeeting(data);
-            res.send(created);
+            const {date, usersInMeeting}= req.body;
+   const data =
+      {
+         date,
+         usersInMeeting
+      }
+      const created = await meetingService.addMeeting(data);
+      res.send(created);
         }
     }
     catch (err) {

@@ -54,13 +54,11 @@ module.exports.createUser = async(req, res, next) => {
     try {
 
         if (req.body) {
-            const { firstName, lastName, city, street, number, phone, email, password, hight, weight } = req.body;
+            const { firstName, lastName,address, phone, email, password, hight, weight } = req.body;
             const data = {
                 firstName,
                 lastName,
-                city,
-                street,
-                number,
+                address,
                 phone,
                 email,
                 password,

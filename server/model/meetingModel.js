@@ -11,24 +11,17 @@ const UserSchema = new mongoose.Schema({
         min: 30,
     }
 })
-const MeetingsSchema = new mongoose.Schema({
-    date: Date,
-    users: [UserSchema]
+
+const UsersInMeetingSchema = new mongoose.Schema({
+    usersInMeeting: [UserSchema]
 },{ timestamps: true })
 
+const MeetingsSchema = new mongoose.Schema({
+    date: Date,
+    userInMeeting:UsersInMeetingSchema
+})
 
 
 module.exports = mongoose.model('meeting', MeetingsSchema);
-
-
-
-
-
-
-
-
-
-
-
 
 

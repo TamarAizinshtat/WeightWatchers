@@ -13,14 +13,12 @@ module.exports.getUser = async (id) => {
 
 }
 module.exports.updateUser = async (id, update) => {
-    const { firstName, lastName, city, street, number, phone, email, password, hight, weight } = update;
+    const { firstName, lastName, address, phone, email, password, hight, weight } = update;
     const data =
     {
         firstName,
         lastName,
-        city,
-        street,
-        number,
+        address,
         phone,
         email,
         password,
