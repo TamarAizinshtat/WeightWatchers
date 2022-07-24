@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/chanakamin/bootcamp-template#readme",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "eslint": "^8.17.0",
@@ -24,8 +26,9 @@
     "express-openid-connect": "^2.8.0",
     "fs.promises": "^0.1.2",
     "http-server": "^14.1.1",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.7.0",
-    "mongoose": "^6.4.4",
+    "mongoose": "^6.4.6",
     "swagger-jsdoc": "^6.2.1",
     "swagger-ui-express": "^4.4.0"
   },
