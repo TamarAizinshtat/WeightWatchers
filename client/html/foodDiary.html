@@ -18,17 +18,30 @@
             <td id="6"></td>
             <td id="7"></td>
             <td id="8"></td>
+            <td >
+                <button class='edit' onclick="editDay()">Edit</button>
+                <button class='save' onclick="saveDay()">Save</button>
+                <button class='delete' onclick="deleteDay()">Delete</button>
+            </td>
         </tr>
     </template>
     <template class="add-date-card">
         <div class="meal-container">
             <h2 class="meal-title"></h2>
             <div class="container-foods" id="">
-                <input type="text" id="1" placeholder="Enter food" autocomplete="off">
+                <form id="searchProductForm" autocomplete="off">
+                    <input dir="rtl" type="text" name="q" id="q" class="input-food-1-1" onkeydown="onkeydown" placeholder="Enter food name"/>
+                    <div id="result" class="input-food-1-1"></div>
+                </form>
+                <form id="searchProductForm" autocomplete="off">
+                    <input dir="rtl" type="text" name="q" id="q" class="input-food-1-2" onkeydown="onkeydown" placeholder="Enter food name"/>
+                    <div id="result" class="input-food-1-2"></div>
+                </form>
+                <!-- <input type="text" id="1" placeholder="Enter food" autocomplete="off">
                 <input type="text" id="2" placeholder="Enter food" autocomplete="off">
                 <input type="text" id="3" placeholder="Enter food" autocomplete="off">
                 <input type="text" id="4" placeholder="Enter food" autocomplete="off">
-                <input type="text" id="5" placeholder="Enter food" autocomplete="off">
+                <input type="text" id="5" placeholder="Enter food" autocomplete="off"> -->
             </div>
             <button class="addMoreFood">Add more food</button>
         </div>

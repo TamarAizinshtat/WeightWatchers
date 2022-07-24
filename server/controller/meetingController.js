@@ -3,10 +3,11 @@ const meetingService = require('../service/meetingService')
 
 const getMeeting = async (req, res, next) => {
     try {
-       
+
         const meeting = await meetingService.getMeeting()
-        res.send(meeting)}
-    
+        res.send(meeting)
+    }
+
     catch (err) {
         next(err);
     }
@@ -54,9 +55,10 @@ const addMeeting = async (req, res, next) => {
 
 const updateMeeting = async (req, res) => {
     try {
+        const id = req.params.id
         if (req.body) {
             const { date, firstName, weight } = req.body;
-            const data = 
+            const data =
             {
                 date,
                 users: [{
@@ -98,8 +100,15 @@ const updateMeeting = async (req, res) => {
         next(err);
     }
 }
-const deleteMeeting = (req, res) => {
-
+const deleteMeeting = async (req, res, next) => {
+    try {
+        const id = req.params.id
+        await meetingService.deleteMeeting(id)
+        res.send('removed');
+    }
+    catch (err) {
+        next(err)
+    };
 }
 
 module.exports = { getMeeting, getMeetingById, addMeeting, updateMeeting, deleteMeeting }
